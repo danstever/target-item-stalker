@@ -3,11 +3,11 @@ var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('items.db');
 
 var items = [
-    'http://www.target.com/p/unicorn-head-wall-decor-pillowfort/-/A-50075402',
-    'http://www.target.com/p/cat-head-wall-decor-pillowfort/-/A-50075812',
-    'http://www.target.com/p/dinosaur-head-wall-decor-pillowfort/-/A-50075329',
-    'http://www.target.com/p/shark-head-wall-decor-pillowfort/-/A-50075445',
-    'http://www.target.com/p/dog-head-wall-decor-pillowfort/-/A-50075602'
+    'http://m.target.com/p/unicorn-head-wall-decor-pillowfort/-/A-50075402',
+    'http://m.target.com/p/cat-head-wall-decor-pillowfort/-/A-50075812',
+    'http://m.target.com/p/dinosaur-head-wall-decor-pillowfort/-/A-50075329',
+    'http://m.target.com/p/shark-head-wall-decor-pillowfort/-/A-50075445',
+    'http://m.target.com/p/dog-head-wall-decor-pillowfort/-/A-50075602'
 ];
 
 function initDB() {

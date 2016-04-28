@@ -55,7 +55,6 @@ function sendUpdate(item) {
        }
     });
 }
-
 function scan(url) {
     var item = {
         'title' : '',
@@ -80,8 +79,8 @@ function scan(url) {
                     'there': false
                 }
                 available.title = document.title;
-                var addToCart = document.getElementById('addToCart');
-                if (addToCart !== null) {
+                var AddToCartAreaId = document.getElementById('AddToCartAreaId').innerHTML;
+                if (AddToCartAreaId.indexOf('currently unavailable') === -1) {
                     available.there = true;
                 }
                 return available;
